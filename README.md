@@ -2,7 +2,7 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Dependency Status](https://www.versioneye.com/user/projects/58fcd57fc2ef4238240d5f71/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/58fcd57fc2ef4238240d5f71)
 
-#Docker Pizza Hut
+# Docker Pizza Hut
 
 Automate orders from Pizza Hut UK using Selenium, Mink and Docker.
 
