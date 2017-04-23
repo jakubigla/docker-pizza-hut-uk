@@ -16,4 +16,5 @@ before_install:
 
 script:
   - cp config.sample.yml config.yml
+  - composer install
   - make
