@@ -2,9 +2,6 @@ sudo: required
 
 language: php
 
-php:
-  - 7
-
 services:
   - docker
 
@@ -18,6 +15,6 @@ before_install:
   - sudo mv docker-compose /usr/local/bin
 
 script:
-  - cp config.sample.yml config.yml
+  - cp config.test.yml config.yml
   - composer install
   - make

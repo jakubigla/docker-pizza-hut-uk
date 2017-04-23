@@ -12,7 +12,7 @@ payment:
   cardholderName: "John Doe"
   expiryMonth: "12"
   expiryYear: "2022"
-  securityCode: ""
+  securityCode: "777"
 
 orders:
   - Pizza:
