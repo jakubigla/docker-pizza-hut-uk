@@ -17,10 +17,16 @@ Copy `config.sample.yml` to `config.yml`. Edit the config file based on example 
  
 Run:
 ```bash
-    make
+make
 ```
 
 or (if all already built)
 ```bash
 docker-compose run --rm order
 ```
+
+## Todo
+- Add desserts, dips and other deals
+- Failures handling
+- Replace `sleep` with Mink's `waitFor`
+
