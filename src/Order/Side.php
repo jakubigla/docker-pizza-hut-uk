@@ -10,7 +10,7 @@ use PizzaHut\PizzaHutOrder;
  * Class Side
  *
  * @package PizzaHut\Side
- * @author Jakub Igla <jakub.igla@valtech.co.uk>
+ * @author Jakub Igla <jakub.igla@gmail.com>
  */
 class Side implements OrderInterface
 {

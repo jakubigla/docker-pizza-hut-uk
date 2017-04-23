@@ -10,7 +10,7 @@ use PizzaHut\PizzaHutOrder;
  * Class Drink
  *
  * @package PizzaHut\Order
- * @author Jakub Igla <jakub.igla@valtech.co.uk>
+ * @author Jakub Igla <jakub.igla@gmail.com>
  */
 class Drink implements OrderInterface
 {

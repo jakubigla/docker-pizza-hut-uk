@@ -10,7 +10,7 @@ use Behat\Mink\Driver\Selenium2Driver;
  * Class PizzaHutOrder
  *
  * @package PizzaHut
- * @author Jakub Igla <jakub.igla@valtech.co.uk>
+ * @author Jakub Igla <jakub.igla@gmail.com>
  */
 class PizzaHutOrder
 {
