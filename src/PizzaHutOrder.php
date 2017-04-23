@@ -73,7 +73,7 @@ class PizzaHutOrder
                 $this->screenShot(($orderId + 1). '. ' . $orderName);
             }
 
-            //$this->checkout();
+            $this->checkout();
 
             \sleep(5);
             $this->screenShot('Final');
