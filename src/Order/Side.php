@@ -17,11 +17,11 @@ class Side implements OrderInterface
     public function make(Mink $mink, array $options): void
     {
         $mink->getSession()->visit(PizzaHutOrder::URL . '/order/sides/');
-        sleep(5);
+        sleep(1);
         $page = $mink->getSession()->getPage();
         $synthValue = 'link--' . $options['type'] . '-single';
         $page->find('css', 'div[data-synth="' . $synthValue . '"]')->click();
-        sleep(1);
+        //sleep(1);
 
         if (\strpos($page->getText(), 'Choose your free dip') !== false) {
             $synthValue = 'add--' . $options['dip'] . '-single';
